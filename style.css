@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main #panel{
+    width: 80%;
+    overflow: hidden;
+    height: 80%;
+    background-color: blueviolet;
+    border-radius: 5px;
+}
+
+#main #panel #tpanel{
+    width: 100%;
+    height: 100px;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+}
+
+#main #panel #tpanel .elem{
+   display: flex;
+   align-items: center;
+   gap: 8px;
+   align-items: center;
+   /* background-color: red; */
+   padding: 2px;
+}
+
+#main #panel #tpanel .elem h3{
+    text-transform: uppercase;
+}
+
+#main #panel #tpanel .elem h4{
+    font-size: 20px;
+    font-weight: 500;
+    background-color: whitesmoke;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#main #panel #bpanel{
+    width: 100%;
+    height: calc(100% - 100px);
+    display: flex;
+    flex-wrap: wrap;
+    /* padding: 15px; */
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: whitesmoke;
+}
+
+#main #panel #bpanel .circle{
+  height: 70px;
+  width: 70px;
+  background-color: black;
+  border-radius: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 10px;
+  justify-content: center;
+  padding: 15px;
+}
